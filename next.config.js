@@ -12,7 +12,8 @@ module.exports = withPWA({
         includePaths: [path.join(__dirname, 'styles')],
     },
     env: {
-        JWT_SECRET: "djhfghbdsgrasklkajsdgf",
+        //JWT_SECRET: "djhfghbdsgrasklkajsdgf",
+        JWT_SECRET: "djhfghbdsqwesklkajsdgf",
         SENDGRID_KEY: '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',
         CLOUDINARY_URL: "https://api.cloudinary.com/v1_1/dgybc86l6/image/upload",
         CLOUDINARY_VIDEO_URL: "https://api.cloudinary.com/v1_1/dgybc86l6/video/upload",
