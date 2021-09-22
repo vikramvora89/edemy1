@@ -3,7 +3,6 @@
     "username": "ysolgeionvcthk",
     "password": "4d4a98f10505774054b0a210bec01c4915d2ecd5ac2527a6a3fd3b9e47b7a2f8",
     "database": "d6rumlmipjcus",
-//    "host": "ec2-34-247-151-118.eu-west-1.compute.amazonaws.com",
     "host": "103.238.105.121",
     "dialect": "postgres"
   },
@@ -11,7 +10,6 @@
     "username": "ysolgeionvcthk",
     "password": "4d4a98f10505774054b0a210bec01c4915d2ecd5ac2527a6a3fd3b9e47b7a2f8",
     "database": "d6rumlmipjcus",
-    //"host": "ec2-34-247-151-118.eu-west-1.compute.amazonaws.com",
     "host": "103.238.105.121",
     "dialect": "postgres"
   },
@@ -19,7 +17,6 @@
     "username": "ysolgeionvcthk",
     "password": "4d4a98f10505774054b0a210bec01c4915d2ecd5ac2527a6a3fd3b9e47b7a2f8",
     "database": "d6rumlmipjcus",
-    //"host": "ec2-34-247-151-118.eu-west-1.compute.amazonaws.com",
     "host": "103.238.105.121",
     "dialect": "postgres"
   }
