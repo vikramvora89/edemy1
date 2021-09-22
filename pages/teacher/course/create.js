@@ -89,8 +89,8 @@ const Create = () => {
         // console.log(post.file_url)
         const data = new FormData()
         data.append('file', course.profilePhoto)
-        data.append('upload_preset', 'vikings')
-        data.append('cloud_name', 'dev-empty')
+        data.append('upload_preset', 'cik8fmg0')
+        data.append('cloud_name', 'dgybc86l6')
         let response
         if(course.profilePhoto){
             response = await axios.post(process.env.CLOUDINARY_URL, data)
@@ -105,8 +105,8 @@ const Create = () => {
         // console.log(post.file_url)
         const data = new FormData()
         data.append('file', course.coverPhoto)
-        data.append('upload_preset', 'vikings')
-        data.append('cloud_name', 'dev-empty')
+        data.append('upload_preset', 'cik8fmg0')
+        data.append('cloud_name', 'dgybc86l6')
         let response
         if(course.coverPhoto){
             response = await axios.post(process.env.CLOUDINARY_URL, data)
@@ -122,8 +122,8 @@ const Create = () => {
         // console.log(post.file_url)
         const data = new FormData()
         data.append('file', course.course_preview_img)
-        data.append('upload_preset', 'vikings')
-        data.append('cloud_name', 'dev-empty')
+        data.append('upload_preset', 'cik8fmg0')
+        data.append('cloud_name', 'dgybc86l6')
         let response
 
         if(course.course_preview_img){

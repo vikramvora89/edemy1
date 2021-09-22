@@ -39,8 +39,8 @@ const UploadCourseVideo = ({ courses }) => {
         // console.log(post.file_url)
         const data = new FormData()
         data.append('file', video.video_url)
-        data.append('upload_preset', 'vikingsvideo')
-        data.append('cloud_name', 'dev-empty')
+        data.append('upload_preset', 'cik8fmg0')
+        data.append('cloud_name', 'dgybc86l6')
         const response = await axios.post(process.env.CLOUDINARY_VIDEO_URL, data);
         const mediaUrl = response.data.url
         return mediaUrl
